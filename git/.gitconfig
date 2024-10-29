@@ -1,0 +1,15 @@
+[user]
+	name = Atticus Helvig
+	email = atticushelvig@gmail.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+	credentialStore = plaintext
+	helper = 
+	helper = /usr/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
